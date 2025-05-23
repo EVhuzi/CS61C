@@ -1,0 +1,373 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(BIT_OPS_PROG)	lab02/Makefile	/^$(BIT_OPS_PROG): $(BIT_OPS_OBJS)$/;"	t	language:Make
+$(EXECUTABLES)	lab10/Makefile	/^$(EXECUTABLES):$/;"	t	language:Make
+$(LFSR_PROG)	lab02/Makefile	/^$(LFSR_PROG): $(LFSR_OBJS)$/;"	t	language:Make
+%.o	lab10/Makefile	/^%.o: %.c$/;"	t	language:Make
+.c.o	lab02/Makefile	/^.c.o:$/;"	t	language:Make
+.rounded-list a	lab10/files/my_documents/style.css	/^.rounded-list a {$/;"	s	language:CSS
+.rounded-list a:before	lab10/files/my_documents/style.css	/^.rounded-list a:before{$/;"	s	language:CSS
+.rounded-list a:hover	lab10/files/my_documents/style.css	/^.rounded-list a:hover{$/;"	s	language:CSS
+ARRAY_SIZE	lab10/omp_apps.h	/^#define ARRAY_SIZE /;"	d	language:C++
+BINARIES	lab02/Makefile	/^BINARIES=$(VECTOR_PROG) $(BIT_OPS_PROG) $(LFSR_PROG)$/;"	m	language:Make
+BIT_OPS_OBJS	lab02/Makefile	/^BIT_OPS_OBJS = bit_ops.o test_bit_ops.o$/;"	m	language:Make
+BIT_OPS_PROG	lab02/Makefile	/^BIT_OPS_PROG = bit_ops$/;"	m	language:Make
+BMP_ERROR	lab10/libbmp/libbmp.h	/^	BMP_ERROR,$/;"	e	language:C++	enum:bmp_error
+BMP_FILE_NOT_OPENED	lab10/libbmp/libbmp.h	/^	BMP_FILE_NOT_OPENED = -4,$/;"	e	language:C++	enum:bmp_error
+BMP_GET_PADDING	lab10/libbmp/libbmp.h	/^#define BMP_GET_PADDING(/;"	d	language:C++	signature:(a)
+BMP_HEADER_NOT_INITIALIZED	lab10/libbmp/libbmp.h	/^	BMP_HEADER_NOT_INITIALIZED,$/;"	e	language:C++	enum:bmp_error
+BMP_INVALID_FILE	lab10/libbmp/libbmp.h	/^	BMP_INVALID_FILE,$/;"	e	language:C++	enum:bmp_error
+BMP_MAGIC	lab10/libbmp/libbmp.h	/^#define BMP_MAGIC /;"	d	language:C++
+BMP_OK	lab10/libbmp/libbmp.h	/^	BMP_OK = 0$/;"	e	language:C++	enum:bmp_error
+BMP_PIXEL	lab10/libbmp/libbmp.h	/^#define BMP_PIXEL(/;"	d	language:C++	signature:(r,g,b)
+BUF_SIZE	lab10/omp_apps.h	/^#define BUF_SIZE /;"	d	language:C++
+CC	lab02/Makefile	/^CC=gcc$/;"	m	language:Make
+CC	lab07/Makefile	/^CC=gcc$/;"	m	language:Make
+CC	lab09/Makefile	/^CC=gcc$/;"	m	language:Make
+CC	lab10/Makefile	/^CC=gcc$/;"	m	language:Make
+CFLAGS	lab02/Makefile	/^CFLAGS=-ggdb -Wall -std=c99$/;"	m	language:Make
+CFLAGS	lab07/Makefile	/^CFLAGS=-ggdb -Wall -pedantic -std=gnu99 -O3$/;"	m	language:Make
+CFLAGS	lab09/Makefile	/^CFLAGS=--std=c99 -Wall$/;"	m	language:Make
+CFLAGS	lab10/Makefile	/^CFLAGS= -std=gnu99 -c -fopenmp$/;"	m	language:Make
+COMPUTE_DOTP_H	lab10/omp_apps.h	/^#define COMPUTE_DOTP_H$/;"	d	language:C++
+CS61C_VECTOR_H_	lab02/vector.h	/^#define CS61C_VECTOR_H_$/;"	d	language:C++
+EX2_PROG	lab07/Makefile	/^EX2_PROG=matrixMultiply$/;"	m	language:Make
+EX3_OBJS	lab07/Makefile	/^EX3_OBJS=transpose.o test_transpose.o$/;"	m	language:Make
+EX3_PROG	lab07/Makefile	/^EX3_PROG=transpose$/;"	m	language:Make
+EXECUTABLES	lab10/Makefile	/^EXECUTABLES=v_add dotp hello server_basic server_process$/;"	m	language:Make
+Image Filter	lab10/files/template.html	/^<h1>Image Filter<\/h1>$/;"	h	language:HTML
+Importer	lab11/textImporter/Importer.java	/^public class Importer {$/;"	c	language:Java
+LD	lab02/Makefile	/^LD=gcc$/;"	m	language:Make
+LD	lab07/Makefile	/^LD=gcc$/;"	m	language:Make
+LDFLAGS	lab02/Makefile	/^LDFLAGS=$/;"	m	language:Make
+LDFLAGS	lab07/Makefile	/^LDFLAGS=$/;"	m	language:Make
+LDFLAGS	lab10/Makefile	/^LDFLAGS=-fopenmp$/;"	m	language:Make
+LFSR_OBJS	lab02/Makefile	/^LFSR_OBJS = lfsr.o test_lfsr.o$/;"	m	language:Make
+LFSR_PROG	lab02/Makefile	/^LFSR_PROG = lfsr$/;"	m	language:Make
+LIBHTTP_H	lab10/libhttp/libhttp.h	/^#define LIBHTTP_H$/;"	d	language:C++
+LIBHTTP_REQUEST_MAX_SIZE	lab10/libhttp/libhttp.c	/^#define LIBHTTP_REQUEST_MAX_SIZE /;"	d	language:C	file:
+LL_CYCLE_H	lab01/ll_cycle.h	/^#define LL_CYCLE_H$/;"	d	language:C++
+MAX_LEN	lab01/interactive_hello.c	/^#define MAX_LEN /;"	d	language:C	file:
+MEMCHECK	lab02/Makefile	/^    MEMCHECK=valgrind --tool=memcheck --leak-check=full --track-origins=yes --dsymutil=yes$/;"	m	language:Make
+MEMCHECK	lab02/Makefile	/^    MEMCHECK=valgrind --tool=memcheck --leak-check=full --track-origins=yes$/;"	m	language:Make
+NUM_ELEMS	lab09/simd.h	/^#define NUM_ELEMS /;"	d	language:C++
+OBJECTS	lab10/Makefile	/^OBJECTS=$(SOURCES:.c=.o)$/;"	m	language:Make
+OUTER_ITERATIONS	lab09/simd.h	/^#define OUTER_ITERATIONS /;"	d	language:C++
+Original	lab10/files/template.html	/^<h3>Original<\/h3>$/;"	j	language:HTML
+REPEAT	lab10/omp_apps.h	/^#define REPEAT /;"	d	language:C++
+ROUTE	lab10/libhttp/libhttp.h	/^#define ROUTE(/;"	d	language:C++	signature:(METHOD,URI)
+ROUTE_END	lab10/libhttp/libhttp.h	/^#define ROUTE_END(/;"	d	language:C++	signature:()
+ROUTE_GET	lab10/libhttp/libhttp.h	/^#define ROUTE_GET(/;"	d	language:C++	signature:(URI)
+ROUTE_POST	lab10/libhttp/libhttp.h	/^#define ROUTE_POST(/;"	d	language:C++	signature:(URI)
+ROUTE_START	lab10/libhttp/libhttp.h	/^#define ROUTE_START(/;"	d	language:C++	signature:()
+SIMD_H	lab09/simd.h	/^#define SIMD_H$/;"	d	language:C++
+Sobel-Edge-Detectored	lab10/files/template.html	/^<h3>Sobel-Edge-Detectored<\/h3>$/;"	j	language:HTML
+THREAD_LAB_SERVER_UTILS_H	lab10/server_utils.h	/^#define THREAD_LAB_SERVER_UTILS_H$/;"	d	language:C++
+TestCase	lab05/testing/test.py	/^class TestCase():$/;"	c	language:Python
+UNAME_S	lab02/Makefile	/^UNAME_S := $(shell uname -s)$/;"	m	language:Make
+USAGE	lab10/server.c	/^char *USAGE = "--files directory\/ [--port 8000 --concurrency 5]\\n";$/;"	v	language:C	typeref:typename:char *
+V0	lab01/eccentric.c	/^#define V0 /;"	d	language:C	file:
+V1	lab01/eccentric.c	/^#define V1 /;"	d	language:C	file:
+V2	lab01/eccentric.c	/^#define V2 /;"	d	language:C	file:
+V3	lab01/eccentric.c	/^#define V3 /;"	d	language:C	file:
+VECTOR_OBJS	lab02/Makefile	/^VECTOR_OBJS=vector.o vector-test.o$/;"	m	language:Make
+VECTOR_PROG	lab02/Makefile	/^VECTOR_PROG=vector-test$/;"	m	language:Make
+WELCOME TO CS61C	lab10/files/index.html	/^    <h1 class="site-title flashing">WELCOME TO CS61C<\/h1>$/;"	h	language:HTML
+__LIBBMP_H__	lab10/libbmp/libbmp.h	/^#define __LIBBMP_H__$/;"	d	language:C++
+__call__	lab05/testing/test.py	/^  def __call__(self, filename):$/;"	m	language:Python	class:TestCase	signature:(self, filename)
+__init__	lab05/testing/test.py	/^  def __init__(self, circfile, tracefile, register_doc):$/;"	m	language:Python	class:TestCase	signature:(self, circfile, tracefile, register_doc)
+_bmp_header	lab10/libbmp/libbmp.h	/^typedef struct _bmp_header$/;"	s	language:C++
+_bmp_img	lab10/libbmp/libbmp.h	/^typedef struct _bmp_img$/;"	s	language:C++
+_bmp_pixel	lab10/libbmp/libbmp.h	/^typedef struct _bmp_pixel$/;"	s	language:C++
+accessBytes	lab07/cache.s	/^accessBytes:$/;"	l	language:Asm
+accessWords	lab07/cache.s	/^accessWords:$/;"	l	language:Asm
+all	lab02/Makefile	/^all: $(BINARIES)$/;"	t	language:Make
+all	lab10/Makefile	/^all: $(EXECUTABLES)$/;"	t	language:Make
+all	lab11/Makefile	/^all:$/;"	t	language:Make
+allocation_failed	lab02/vector.c	/^static void allocation_failed() {$/;"	f	language:C	typeref:typename:void	file:	signature:()
+also_bad_vector_new	lab02/vector.c	/^vector_t also_bad_vector_new() {$/;"	f	language:C	typeref:typename:vector_t	signature:()
+argv	lab11/createIndices.py	/^    argv = sys.argv$/;"	v	language:Python
+argv	lab11/mostPopular.py	/^    argv = sys.argv$/;"	v	language:Python
+argv	lab11/perWordDocumentCount.py	/^    argv = sys.argv$/;"	v	language:Python
+argv	lab11/wordCount.py	/^    argv = sys.argv$/;"	v	language:Python
+array	lab03/cc_test.s	/^array:$/;"	l	language:Asm
+array	lab07/cache.s	/^array:	.word	2048		# max array size specified in BYTES (DO NOT CHANGE)$/;"	l	language:Asm
+arrays	lab04/megalistmanips.s	/^arrays: .word 5, 6, 7, 8, 9$/;"	l	language:Asm
+bad_vector_new	lab02/vector.c	/^vector_t *bad_vector_new() {$/;"	f	language:C	typeref:typename:vector_t *	signature:()
+benchmark	lab07/test_transpose.c	/^void benchmark(int *A, int *B, int n, int blocksize,$/;"	f	language:C	typeref:typename:void	signature:(int * A,int * B,int n,int blocksize,void (* transpose)(int,int,int *,int *),char * description)
+bfOffBits	lab10/libbmp/libbmp.h	/^	unsigned int   bfOffBits;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+bfReserved	lab10/libbmp/libbmp.h	/^	unsigned int   bfReserved;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+bfSize	lab10/libbmp/libbmp.h	/^	unsigned int   bfSize;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+biBitCount	lab10/libbmp/libbmp.h	/^	unsigned short biBitCount;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned short
+biClrImportant	lab10/libbmp/libbmp.h	/^	unsigned int   biClrImportant;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+biClrUsed	lab10/libbmp/libbmp.h	/^	unsigned int   biClrUsed;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+biCompression	lab10/libbmp/libbmp.h	/^	unsigned int   biCompression;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+biHeight	lab10/libbmp/libbmp.h	/^	int            biHeight;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:int
+biPlanes	lab10/libbmp/libbmp.h	/^	unsigned short biPlanes;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned short
+biSize	lab10/libbmp/libbmp.h	/^	unsigned int   biSize;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+biSizeImage	lab10/libbmp/libbmp.h	/^	unsigned int   biSizeImage;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:unsigned int
+biWidth	lab10/libbmp/libbmp.h	/^	int            biWidth;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:int
+biXPelsPerMeter	lab10/libbmp/libbmp.h	/^	int            biXPelsPerMeter;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:int
+biYPelsPerMeter	lab10/libbmp/libbmp.h	/^	int            biYPelsPerMeter;$/;"	m	language:C++	struct:_bmp_header	typeref:typename:int
+bit_ops.c	lab02/Makefile	/^bit_ops.c: bit_ops.h$/;"	t	language:Make
+blue	lab10/libbmp/libbmp.h	/^	unsigned char blue;$/;"	m	language:C++	struct:_bmp_pixel	typeref:typename:unsigned char
+bmp_error	lab10/libbmp/libbmp.h	/^enum bmp_error$/;"	g	language:C++
+bmp_header	lab10/libbmp/libbmp.h	/^} bmp_header;$/;"	t	language:C++	typeref:struct:_bmp_header
+bmp_header_init_df	lab10/libbmp/libbmp.c	/^bmp_header_init_df (bmp_header *header,$/;"	f	language:C	typeref:typename:void	signature:(bmp_header * header,const int width,const int height)
+bmp_header_read	lab10/libbmp/libbmp.c	/^bmp_header_read (bmp_header *header,$/;"	f	language:C	typeref:enum:bmp_error	signature:(bmp_header * header,FILE * img_file)
+bmp_header_write	lab10/libbmp/libbmp.c	/^bmp_header_write (const bmp_header *header,$/;"	f	language:C	typeref:enum:bmp_error	signature:(const bmp_header * header,FILE * img_file)
+bmp_img	lab10/libbmp/libbmp.h	/^} bmp_img;$/;"	t	language:C++	typeref:struct:_bmp_img
+bmp_img_alloc	lab10/libbmp/libbmp.c	/^bmp_img_alloc (bmp_img *img)$/;"	f	language:C	typeref:typename:void	signature:(bmp_img * img)
+bmp_img_free	lab10/libbmp/libbmp.c	/^bmp_img_free (bmp_img *img)$/;"	f	language:C	typeref:typename:void	signature:(bmp_img * img)
+bmp_img_init_df	lab10/libbmp/libbmp.c	/^bmp_img_init_df (bmp_img   *img,$/;"	f	language:C	typeref:typename:void	signature:(bmp_img * img,const int width,const int height)
+bmp_img_read	lab10/libbmp/libbmp.c	/^bmp_img_read (bmp_img    *img,$/;"	f	language:C	typeref:enum:bmp_error	signature:(bmp_img * img,const char * filename)
+bmp_img_write	lab10/libbmp/libbmp.c	/^bmp_img_write (const bmp_img *img,$/;"	f	language:C	typeref:enum:bmp_error	signature:(const bmp_img * img,const char * filename)
+bmp_pixel	lab10/libbmp/libbmp.h	/^} bmp_pixel;$/;"	t	language:C++	typeref:struct:_bmp_pixel
+bmp_pixel_init	lab10/libbmp/libbmp.c	/^bmp_pixel_init (bmp_pixel           *pxl,$/;"	f	language:C	typeref:typename:void	signature:(bmp_pixel * pxl,const unsigned char red,const unsigned char green,const unsigned char blue)
+byteCheck	lab07/cache.s	/^byteCheck:$/;"	l	language:Asm
+byteLoop	lab07/cache.s	/^byteLoop:$/;"	l	language:Asm
+byteZero	lab07/cache.s	/^byteZero:$/;"	l	language:Asm
+check_arr	lab03/cc_test.s	/^check_arr:$/;"	l	language:Asm
+check_arr_end	lab03/cc_test.s	/^check_arr_end:$/;"	l	language:Asm
+check_arr_loop	lab03/cc_test.s	/^check_arr_loop:$/;"	l	language:Asm
+clean	lab02/Makefile	/^clean:$/;"	t	language:Make
+clean	lab07/Makefile	/^clean:$/;"	t	language:Make
+clean	lab09/Makefile	/^clean:$/;"	t	language:Make
+clean	lab10/Makefile	/^clean:$/;"	t	language:Make
+clean	lab11/Makefile	/^clean:$/;"	t	language:Make
+compare_unbounded	lab05/testing/test.py	/^def compare_unbounded(student_out, reference_out, filename):$/;"	f	language:Python	signature:(student_out, reference_out, filename)
+compute_dotp	lab10/omp_apps.c	/^char* compute_dotp(int arr_size) {$/;"	f	language:C	typeref:typename:char *	signature:(int arr_size)
+content_len	lab10/server_utils.c	/^char *content_len = "Content-Length";$/;"	v	language:C	typeref:typename:char *
+content_type	lab10/server_utils.c	/^char *content_type = "Content-Type";$/;"	v	language:C	typeref:typename:char *
+copyFile	lab11/textImporter/Importer.java	/^  public static void copyFile(File file) throws Exception {$/;"	m	language:Java	class:Importer	signature:(File file)
+createIndices	lab11/createIndices.py	/^def createIndices(file_name, output="spark-wc-out-createIndices"):$/;"	f	language:Python	signature:(file_name, output="spark-wc-out-createIndices")
+create_default_list	lab03/list_map.s	/^create_default_list:$/;"	l	language:Asm
+create_default_list	lab04/megalistmanips.s	/^create_default_list:$/;"	l	language:Asm
+data	lab02/vector.c	/^    int *data;$/;"	m	language:C	struct:vector_t	typeref:typename:int *	file:
+dest	lab03/ex2.c	/^int dest[10];$/;"	v	language:C	typeref:typename:int[10]
+dest	lab03/ex2.s	/^dest:$/;"	l	language:Asm
+dispatch	lab10/server_utils.c	/^void dispatch(int client_socket_number) {$/;"	f	language:C	typeref:typename:void	signature:(int client_socket_number)
+done	lab03/list_map.s	/^done:$/;"	l	language:Asm
+done	lab04/megalistmanips.s	/^done:$/;"	l	language:Asm
+dotp	lab10/Makefile	/^dotp: dotp.o omp_app.o libbmp.o$/;"	t	language:Make
+dotp_manual_optimized	lab10/omp_apps.c	/^double dotp_manual_optimized(double* x, double* y, int arr_size) {$/;"	f	language:C	typeref:typename:double	signature:(double * x,double * y,int arr_size)
+dotp_naive	lab10/omp_apps.c	/^double dotp_naive(double* x, double* y, int arr_size) {$/;"	f	language:C	typeref:typename:double	signature:(double * x,double * y,int arr_size)
+dotp_reduction_optimized	lab10/omp_apps.c	/^double dotp_reduction_optimized(double* x, double* y, int arr_size) {$/;"	f	language:C	typeref:typename:double	signature:(double * x,double * y,int arr_size)
+dotp_size	lab10/server_utils.c	/^int dotp_size = 100000; \/\/ default to 5 0s, can be changed from command line arg$/;"	v	language:C	typeref:typename:int
+end_msg	lab04/megalistmanips.s	/^end_msg:    .asciiz "Lists after: \\n"$/;"	l	language:Asm
+ex2	lab07/Makefile	/^ex2:$/;"	t	language:Make
+ex3	lab07/Makefile	/^ex3: $(EX3_OBJS)$/;"	t	language:Make
+exit	lab03/ex2.s	/^exit:$/;"	l	language:Asm
+exit_with_usage	lab10/server_utils.c	/^void exit_with_usage(char *executable_name) {$/;"	f	language:C	typeref:typename:void	signature:(char * executable_name)
+exp_inc_array_result	lab03/cc_test.s	/^exp_inc_array_result:$/;"	l	language:Asm
+f	lab04/discrete_fn.s	/^f:$/;"	l	language:Asm
+fa20-lab	README.md	/^# fa20-lab$/;"	c	language:Markdown
+factorial	lab03/factorial.s	/^factorial:$/;"	l	language:Asm
+failure	lab03/cc_test.s	/^failure:$/;"	l	language:Asm
+failure_message	lab03/cc_test.s	/^failure_message: .asciiz "Test failed for some reason.\\n"$/;"	l	language:Asm
+fib	lab03/ex1.s	/^fib:$/;"	l	language:Asm
+file_locations	lab05/testing/test.py	/^file_locations = os.getcwd()$/;"	v	language:Python
+files	lab11/textImporter/Importer.java	/^  static long files = 0;$/;"	f	language:Java	class:Importer
+fillArray	lab04/megalistmanips.s	/^fillArray: lw t0, 0(a1) #t0 gets array element$/;"	l	language:Asm
+finish	lab03/ex1.s	/^finish:$/;"	l	language:Asm
+flatMapFunc	lab11/createIndices.py	/^def flatMapFunc(document):$/;"	f	language:Python	signature:(document)
+flatMapFunc	lab11/perWordDocumentCount.py	/^def flatMapFunc(document):$/;"	f	language:Python	signature:(document)
+flip_bit	lab02/bit_ops.c	/^void flip_bit(unsigned * x,$/;"	f	language:C	typeref:typename:void	signature:(unsigned * x,unsigned n)
+fun	lab03/ex2.c	/^int fun(int x) {$/;"	f	language:C	typeref:typename:int	signature:(int x)
+fun	lab03/ex2.s	/^fun:$/;"	l	language:Asm
+gen_array	lab10/omp_apps.c	/^double* gen_array(int n) {$/;"	f	language:C	typeref:typename:double *	signature:(int n)
+generate-input	lab11/Makefile	/^generate-input:$/;"	t	language:Make
+get_bit	lab02/bit_ops.c	/^unsigned get_bit(unsigned x,$/;"	f	language:C	typeref:typename:unsigned	signature:(unsigned x,unsigned n)
+green	lab10/libbmp/libbmp.h	/^	unsigned char green;$/;"	m	language:C++	struct:_bmp_pixel	typeref:typename:unsigned char
+handle_bmp_request	lab10/server_utils.c	/^void handle_bmp_request(int socket_fd, char *path) {$/;"	f	language:C	typeref:typename:void	signature:(int socket_fd,char * path)
+handle_files_request	lab10/server_utils.c	/^void handle_files_request(int socket_fd, struct http_request *request) {$/;"	f	language:C	typeref:typename:void	signature:(int socket_fd,struct http_request * request)
+handle_report_request	lab10/server_utils.c	/^void handle_report_request(int socket_fd, int arr_size) {$/;"	f	language:C	typeref:typename:void	signature:(int socket_fd,int arr_size)
+hash	lab11/textImporter/Importer.java	/^  public static Text hash(Text content) throws Exception {$/;"	m	language:Java	class:Importer	signature:(Text content)
+header_tag_left	lab10/server_utils.c	/^char *header_tag_left = "<center><h1>";$/;"	v	language:C	typeref:typename:char *
+header_tag_right	lab10/server_utils.c	/^char *header_tag_right = "<\/h1><hr><\/center>";$/;"	v	language:C	typeref:typename:char *
+hello	lab10/Makefile	/^hello: hello.o$/;"	t	language:Make
+helper_fn	lab03/cc_test.s	/^helper_fn:$/;"	l	language:Asm
+http_end_headers	lab10/libhttp/libhttp.c	/^void http_end_headers(int fd) { dprintf(fd, "\\r\\n"); }$/;"	f	language:C	typeref:typename:void	signature:(int fd)
+http_fatal_error	lab10/libhttp/libhttp.c	/^void http_fatal_error(char *message) {$/;"	f	language:C	typeref:typename:void	signature:(char * message)
+http_get_mime_type	lab10/libhttp/libhttp.c	/^char *http_get_mime_type(char *file_name) {$/;"	f	language:C	typeref:typename:char *	signature:(char * file_name)
+http_get_response_message	lab10/libhttp/libhttp.c	/^char *http_get_response_message(int status_code) {$/;"	f	language:C	typeref:typename:char *	signature:(int status_code)
+http_make_error	lab10/server_utils.c	/^void http_make_error(int socket_fd, int status) {$/;"	f	language:C	typeref:typename:void	signature:(int socket_fd,int status)
+http_make_header	lab10/server_utils.c	/^void http_make_header(int sfd,  char *ftype, int status_code, __off_t size) {$/;"	f	language:C	typeref:typename:void	signature:(int sfd,char * ftype,int status_code,__off_t size)
+http_request	lab10/libhttp/libhttp.h	/^struct http_request {$/;"	s	language:C++
+http_request_parse	lab10/libhttp/libhttp.c	/^struct http_request *http_request_parse(int fd) {$/;"	f	language:C	typeref:struct:http_request *	signature:(int fd)
+http_send_data	lab10/libhttp/libhttp.c	/^void http_send_data(int fd, char *data, size_t size) {$/;"	f	language:C	typeref:typename:void	signature:(int fd,char * data,size_t size)
+http_send_header	lab10/libhttp/libhttp.c	/^void http_send_header(int fd, char *key, char *value) {$/;"	f	language:C	typeref:typename:void	signature:(int fd,char * key,char * value)
+http_send_string	lab10/libhttp/libhttp.c	/^void http_send_string(int fd, char *data) {$/;"	f	language:C	typeref:typename:void	signature:(int fd,char * data)
+http_serve_directory	lab10/server_utils.c	/^void http_serve_directory(int socket_fd,  char *path) {$/;"	f	language:C	typeref:typename:void	signature:(int socket_fd,char * path)
+http_serve_file	lab10/server_utils.c	/^void http_serve_file(int socket_fd, char *path, int size) {$/;"	f	language:C	typeref:typename:void	signature:(int socket_fd,char * path,int size)
+http_start_response	lab10/libhttp/libhttp.c	/^void http_start_response(int fd, int status_code) {$/;"	f	language:C	typeref:typename:void	signature:(int fd,int status_code)
+image_proc	lab10/omp_apps.c	/^char *image_proc(const char* filename) {$/;"	f	language:C	typeref:typename:char *	signature:(const char * filename)
+img_header	lab10/libbmp/libbmp.h	/^	bmp_header   img_header;$/;"	m	language:C++	struct:_bmp_img	typeref:typename:bmp_header
+img_pixels	lab10/libbmp/libbmp.h	/^	bmp_pixel  **img_pixels;$/;"	m	language:C++	struct:_bmp_img	typeref:typename:bmp_pixel **
+inc_arr	lab03/cc_test.s	/^inc_arr:$/;"	l	language:Asm
+inc_arr_end	lab03/cc_test.s	/^inc_arr_end:$/;"	l	language:Asm
+inc_arr_loop	lab03/cc_test.s	/^inc_arr_loop:$/;"	l	language:Asm
+lfsr.c	lab02/Makefile	/^lfsr.c: lfsr.h$/;"	t	language:Make
+lfsr_calculate	lab02/lfsr.c	/^void lfsr_calculate(uint16_t *reg) {$/;"	f	language:C	typeref:typename:void	signature:(uint16_t * reg)
+libbmp.o	lab10/Makefile	/^libbmp.o:$/;"	t	language:Make
+libhttp.o	lab10/Makefile	/^libhttp.o:$/;"	t	language:Make
+ll_has_cycle	lab01/ll_cycle.c	/^int ll_has_cycle(node *head) {$/;"	f	language:C	typeref:typename:int	signature:(node * head)
+logisim_location	lab05/testing/test.py	/^logisim_location = os.path.join(os.getcwd(),"logisim-evolution.jar")$/;"	v	language:Python
+lookForFiles	lab11/textImporter/Importer.java	/^  static void lookForFiles(File file) throws Exception {$/;"	m	language:Java	class:Importer	signature:(File file)
+loop	lab03/ex2.s	/^loop:$/;"	l	language:Asm
+loop	lab03/list_map.s	/^loop:   #do...$/;"	l	language:Asm
+loop	lab04/megalistmanips.s	/^loop: #do...$/;"	l	language:Asm
+main	lab01/eccentric.c	/^int main(void) {$/;"	f	language:C	typeref:typename:int	signature:(void)
+main	lab01/hello.c	/^int main(int argc, char *argv[]) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	lab01/interactive_hello.c	/^int main(int argc, char *argv[]) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	lab01/no_segfault_ex.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab01/segfault_ex.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab01/test_ll_cycle.c	/^int main(void) {$/;"	f	language:C	typeref:typename:int	signature:(void)
+main	lab02/test_bit_ops.c	/^int main(int argc,$/;"	f	language:C	typeref:typename:int	signature:(int argc,const char * argv[])
+main	lab02/test_lfsr.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab02/vector-test.c	/^int main(int argc, char **argv) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	lab03/cc_test.s	/^main:$/;"	l	language:Asm
+main	lab03/ex1.s	/^main:$/;"	l	language:Asm
+main	lab03/ex2.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab03/ex2.s	/^main:$/;"	l	language:Asm
+main	lab03/factorial.s	/^main:$/;"	l	language:Asm
+main	lab03/list_map.s	/^main:$/;"	l	language:Asm
+main	lab04/discrete_fn.s	/^main:$/;"	l	language:Asm
+main	lab04/megalistmanips.s	/^main:$/;"	l	language:Asm
+main	lab07/cache.s	/^main:	li	a0, 256		# array size in BYTES (power of 2 < array size)$/;"	l	language:Asm
+main	lab07/matrixMultiply.c	/^int main( int argc, char **argv ) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	lab07/test_transpose.c	/^int main( int argc, char **argv ) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	lab09/test_simd.c	/^int main(int argc, char* argv[]) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char * argv[])
+main	lab10/dotp.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab10/hello.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab10/server.c	/^int main(int argc, char **argv) {$/;"	f	language:C	typeref:typename:int	signature:(int argc,char ** argv)
+main	lab10/v_add.c	/^int main() {$/;"	f	language:C	typeref:typename:int	signature:()
+main	lab11/textImporter/Importer.java	/^  public static void main(String[] args) {$/;"	m	language:Java	class:Importer	signature:(String[] args)
+malloc	lab03/list_map.s	/^malloc:$/;"	l	language:Asm
+malloc	lab04/megalistmanips.s	/^malloc:$/;"	l	language:Asm
+map	lab03/list_map.s	/^map:$/;"	l	language:Asm
+map	lab04/megalistmanips.s	/^map:$/;"	l	language:Asm
+mapFunc	lab11/createIndices.py	/^def mapFunc(arg):$/;"	f	language:Python	signature:(arg)
+mapFunc	lab11/perWordDocumentCount.py	/^def mapFunc(arg):$/;"	f	language:Python	signature:(arg)
+mapLoop	lab04/megalistmanips.s	/^mapLoop:$/;"	l	language:Asm
+method	lab10/libhttp/libhttp.h	/^  char *method;$/;"	m	language:C++	struct:http_request	typeref:typename:char *
+mostPopular	lab11/mostPopular.py	/^def mostPopular(file_name, output="spark-wc-out-mostPopular"):$/;"	f	language:Python	signature:(file_name, output="spark-wc-out-mostPopular")
+multMat1	lab07/matrixMultiply.c	/^void multMat1( int n, float *A, float *B, float *C ) {$/;"	f	language:C	typeref:typename:void	signature:(int n,float * A,float * B,float * C)
+multMat2	lab07/matrixMultiply.c	/^void multMat2( int n, float *A, float *B, float *C ) {$/;"	f	language:C	typeref:typename:void	signature:(int n,float * A,float * B,float * C)
+multMat3	lab07/matrixMultiply.c	/^void multMat3( int n, float *A, float *B, float *C ) {$/;"	f	language:C	typeref:typename:void	signature:(int n,float * A,float * B,float * C)
+multMat4	lab07/matrixMultiply.c	/^void multMat4( int n, float *A, float *B, float *C ) {$/;"	f	language:C	typeref:typename:void	signature:(int n,float * A,float * B,float * C)
+multMat5	lab07/matrixMultiply.c	/^void multMat5( int n, float *A, float *B, float *C ) {$/;"	f	language:C	typeref:typename:void	signature:(int n,float * A,float * B,float * C)
+multMat6	lab07/matrixMultiply.c	/^void multMat6( int n, float *A, float *B, float *C ) {$/;"	f	language:C	typeref:typename:void	signature:(int n,float * A,float * B,float * C)
+mystery	lab04/megalistmanips.s	/^mystery:$/;"	l	language:Asm
+n	lab03/ex1.s	/^n: .word 9$/;"	l	language:Asm
+n	lab03/factorial.s	/^n: .word 8$/;"	l	language:Asm
+naive_pow	lab03/cc_test.s	/^naive_pow:$/;"	l	language:Asm
+naive_pow_end	lab03/cc_test.s	/^naive_pow_end:$/;"	l	language:Asm
+naive_pow_loop	lab03/cc_test.s	/^naive_pow_loop:$/;"	l	language:Asm
+neg1	lab04/discrete_fn.s	/^neg1:   .asciiz "f(-1) should be 17, and it is: "$/;"	l	language:Asm
+neg2	lab04/discrete_fn.s	/^neg2:   .asciiz "f(-2) should be 61, and it is: "$/;"	l	language:Asm
+neg3	lab04/discrete_fn.s	/^neg3:   .asciiz "f(-3) should be 6, and it is: "$/;"	l	language:Asm
+next	lab01/ll_cycle.h	/^    struct node *next;$/;"	m	language:C++	struct:node	typeref:struct:node *
+node	lab01/ll_cycle.h	/^typedef struct node {$/;"	s	language:C++
+node	lab01/ll_cycle.h	/^} node;$/;"	t	language:C++	typeref:struct:node
+ol	lab10/files/my_documents/style.css	/^ol {$/;"	s	language:CSS
+ol ol	lab10/files/my_documents/style.css	/^ol ol {$/;"	s	language:CSS
+omp_app.o	lab10/Makefile	/^omp_app.o: omp_apps.c libbmp.o$/;"	t	language:Make
+omp_app.o	lab10/Makefile	/^omp_app.o: omp_apps.c libbmp\/libbmp.c$/;"	t	language:Make
+outDir	lab11/textImporter/Importer.java	/^  static File outDir = new File("convertedOut");$/;"	f	language:Java	class:Importer
+output	lab04/discrete_fn.s	/^output: .word   6, 61, 17, -38, 19, 42, 5$/;"	l	language:Asm
+path	lab10/libhttp/libhttp.h	/^  char *path;$/;"	m	language:C++	struct:http_request	typeref:typename:char *
+perWordDocumentCount	lab11/perWordDocumentCount.py	/^def perWordDocumentCount(file_name, output="spark-wc-out-perWordDocumentCount"):$/;"	f	language:Python	signature:(file_name, output="spark-wc-out-perWordDocumentCount")
+pos1	lab04/discrete_fn.s	/^pos1:   .asciiz "f(1) should be 19, and it is: "$/;"	l	language:Asm
+pos2	lab04/discrete_fn.s	/^pos2:   .asciiz "f(2) should be 42, and it is: "$/;"	l	language:Asm
+pos3	lab04/discrete_fn.s	/^pos3:   .asciiz "f(3) should be 5, and it is: "$/;"	l	language:Asm
+printLoop	lab04/megalistmanips.s	/^printLoop:$/;"	l	language:Asm
+printMeAndRecurse	lab03/list_map.s	/^printMeAndRecurse:$/;"	l	language:Asm
+printMeAndRecurse	lab04/megalistmanips.s	/^printMeAndRecurse:$/;"	l	language:Asm
+print_int	lab04/discrete_fn.s	/^print_int:$/;"	l	language:Asm
+print_list	lab03/list_map.s	/^print_list:$/;"	l	language:Asm
+print_list	lab04/megalistmanips.s	/^print_list:$/;"	l	language:Asm
+print_newline	lab03/list_map.s	/^print_newline:$/;"	l	language:Asm
+print_newline	lab04/discrete_fn.s	/^print_newline:$/;"	l	language:Asm
+print_newline	lab04/megalistmanips.s	/^print_newline:$/;"	l	language:Asm
+print_str	lab04/discrete_fn.s	/^print_str:$/;"	l	language:Asm
+print_usage	lab10/timer.sh	/^print_usage() {$/;"	f	language:Sh
+red	lab10/libbmp/libbmp.h	/^	unsigned char red;$/;"	m	language:C++	struct:_bmp_pixel	typeref:typename:unsigned char
+reduceFunc	lab11/createIndices.py	/^def reduceFunc(arg1, arg2):$/;"	f	language:Python	signature:(arg1, arg2)
+reduceFunc	lab11/perWordDocumentCount.py	/^def reduceFunc(arg1, arg2):$/;"	f	language:Python	signature:(arg1, arg2)
+report	lab10/server.c	/^char *report = "report.txt";$/;"	v	language:C	typeref:typename:char *
+run_tests	lab05/testing/test.py	/^def run_tests(tests):$/;"	f	language:Python	signature:(tests)
+seqFileWriter	lab11/textImporter/Importer.java	/^  static SequenceFile.Writer seqFileWriter;$/;"	f	language:Java	class:Importer
+serve_forever	lab10/server_utils.c	/^void serve_forever(int *socket_number) {$/;"	f	language:C	typeref:typename:void	signature:(int * socket_number)
+server_basic	lab10/Makefile	/^server_basic: server_basic.o libhttp.o omp_apps.o server_utils_serial.o libbmp.o$/;"	t	language:Make
+server_basic.o	lab10/Makefile	/^server_basic.o: server.c libhttp\/libhttp.c omp_apps.c server_utils.c libbmp\/libbmp.c$/;"	t	language:Make
+server_basic.o	lab10/Makefile	/^server_basic.o:$/;"	t	language:Make
+server_fd	lab10/server_utils.h	/^int server_fd;$/;"	v	language:C++	typeref:typename:int
+server_files_directory	lab10/server_utils.h	/^char *server_files_directory;$/;"	v	language:C++	typeref:typename:char *
+server_port	lab10/server_utils.h	/^int server_port;$/;"	v	language:C++	typeref:typename:int
+server_process	lab10/Makefile	/^server_process: server_process.o libhttp.o omp_apps.o server_utils_process.o libbmp.o$/;"	t	language:Make
+server_process.o	lab10/Makefile	/^server_process.o: server.c libhttp\/libhttp.c omp_apps.c server_utils.c libbmp\/libbmp.c$/;"	t	language:Make
+server_process.o	lab10/Makefile	/^server_process.o:$/;"	t	language:Make
+server_utils_process.o	lab10/Makefile	/^server_utils_process.o: server_utils.c$/;"	t	language:Make
+server_utils_serial.o	lab10/Makefile	/^server_utils_serial.o: server_utils.c$/;"	t	language:Make
+set_bit	lab02/bit_ops.c	/^void set_bit(unsigned * x,$/;"	f	language:C	typeref:typename:void	signature:(unsigned * x,unsigned n,unsigned v)
+signal_callback_handler	lab10/server_utils.c	/^void signal_callback_handler(int signum) {$/;"	f	language:C	typeref:typename:void	signature:(int signum)
+simd	lab09/Makefile	/^simd: test_simd.o simd.o$/;"	t	language:Make
+simd.o	lab09/Makefile	/^simd.o: simd.c simd.h$/;"	t	language:Make
+simple_fn	lab03/cc_test.s	/^simple_fn:$/;"	l	language:Asm
+size	lab02/vector.c	/^    size_t size;$/;"	m	language:C	struct:vector_t	typeref:typename:size_t	file:
+sobel	lab10/omp_apps.c	/^int sobel[3][3] = {{-1, 0, 1}, {-2, 0, 2}, {-1, 0, 1}};$/;"	v	language:C	typeref:typename:int[3][3]
+sobel_filter	lab10/omp_apps.c	/^void sobel_filter(bmp_pixel **src, bmp_pixel **dst, int row, int col) {$/;"	f	language:C	typeref:typename:void	signature:(bmp_pixel ** src,bmp_pixel ** dst,int row,int col)
+source	lab03/ex2.c	/^int source[] = {3, 1, 4, 1, 5, 9, 0};$/;"	v	language:C	typeref:typename:int[]
+source	lab03/ex2.s	/^source:$/;"	l	language:Asm
+splitDocument	lab11/mostPopular.py	/^def splitDocument(document):$/;"	f	language:Python	signature:(document)
+splitDocument	lab11/wordCount.py	/^def splitDocument(document):$/;"	f	language:Python	signature:(document)
+square	lab03/list_map.s	/^square:$/;"	l	language:Asm
+start_msg	lab04/megalistmanips.s	/^start_msg:  .asciiz "Lists before: \\n"$/;"	l	language:Asm
+start_with	lab10/server_utils.c	/^inline int start_with(char *src, char *target) {$/;"	f	language:C	typeref:typename:int	signature:(char * src,char * target)
+success_message	lab03/cc_test.s	/^success_message: .asciiz "Sanity checks passed! Make sure there are no CC violations.\\n"$/;"	l	language:Asm
+sum	lab09/simd.c	/^long long int sum(int vals[NUM_ELEMS]) {$/;"	f	language:C	typeref:typename:long long int	signature:(int vals[NUM_ELEMS])
+sumCounts	lab11/mostPopular.py	/^def sumCounts(a, b):$/;"	f	language:Python	signature:(a, b)
+sumCounts	lab11/wordCount.py	/^def sumCounts(a, b):$/;"	f	language:Python	signature:(a, b)
+sum_simd	lab09/simd.c	/^long long int sum_simd(int vals[NUM_ELEMS]) {$/;"	f	language:C	typeref:typename:long long int	signature:(int vals[NUM_ELEMS])
+sum_simd_unrolled	lab09/simd.c	/^long long int sum_simd_unrolled(int vals[NUM_ELEMS]) {$/;"	f	language:C	typeref:typename:long long int	signature:(int vals[NUM_ELEMS])
+sum_unrolled	lab09/simd.c	/^long long int sum_unrolled(int vals[NUM_ELEMS]) {$/;"	f	language:C	typeref:typename:long long int	signature:(int vals[NUM_ELEMS])
+template_str	lab10/server_utils.c	/^const char *template_str = "<!DOCTYPE html> \\$/;"	v	language:C	typeref:typename:const char *
+test_bit_ops.c	lab02/Makefile	/^test_bit_ops.c: bit_ops.h$/;"	t	language:Make
+test_flip_bit	lab02/test_bit_ops.c	/^void test_flip_bit(unsigned x,$/;"	f	language:C	typeref:typename:void	signature:(unsigned x,unsigned n,unsigned expected)
+test_get_bit	lab02/test_bit_ops.c	/^void test_get_bit(unsigned x,$/;"	f	language:C	typeref:typename:void	signature:(unsigned x,unsigned n,unsigned expected)
+test_lfsr.c	lab02/Makefile	/^test_lfsr.c: lfsr.h$/;"	t	language:Make
+test_set_bit	lab02/test_bit_ops.c	/^void test_set_bit(unsigned x,$/;"	f	language:C	typeref:typename:void	signature:(unsigned x,unsigned n,unsigned v,unsigned expected)
+test_simd.o	lab09/Makefile	/^test_simd.o: simd.c simd.h$/;"	t	language:Make
+tests	lab05/testing/test.py	/^tests = [$/;"	v	language:Python
+toPairs	lab11/mostPopular.py	/^def toPairs(word):$/;"	f	language:Python	signature:(word)
+toPairs	lab11/wordCount.py	/^def toPairs(word):$/;"	f	language:Python	signature:(word)
+totalBytes	lab11/textImporter/Importer.java	/^  static long totalBytes = 0;$/;"	f	language:Java	class:Importer
+totalRecords	lab11/textImporter/Importer.java	/^  static long totalRecords = 0;$/;"	f	language:Java	class:Importer
+transpose_blocking	lab07/transpose.c	/^void transpose_blocking(int n, int blocksize, int *dst, int *src) {$/;"	f	language:C	typeref:typename:void	signature:(int n,int blocksize,int * dst,int * src)
+transpose_naive	lab07/transpose.c	/^void transpose_naive(int n, int blocksize, int *dst, int *src) {$/;"	f	language:C	typeref:typename:void	signature:(int n,int blocksize,int * dst,int * src)
+v_add	lab10/Makefile	/^v_add: v_add.o omp_app.o libbmp.o$/;"	t	language:Make
+v_add_naive	lab10/omp_apps.c	/^void v_add_naive(double* x, double* y, double* z) {$/;"	f	language:C	typeref:typename:void	signature:(double * x,double * y,double * z)
+v_add_optimized_adjacent	lab10/omp_apps.c	/^void v_add_optimized_adjacent(double* x, double* y, double* z) {$/;"	f	language:C	typeref:typename:void	signature:(double * x,double * y,double * z)
+v_add_optimized_chunks	lab10/omp_apps.c	/^void v_add_optimized_chunks(double* x, double* y, double* z) {$/;"	f	language:C	typeref:typename:void	signature:(double * x,double * y,double * z)
+value	lab01/ll_cycle.h	/^    int value;$/;"	m	language:C++	struct:node	typeref:typename:int
+vector-memcheck	lab02/Makefile	/^vector-memcheck: $(VECTOR_PROG)$/;"	t	language:Make
+vector-test.c	lab02/Makefile	/^vector-test.c: vector.h$/;"	t	language:Make
+vector.c	lab02/Makefile	/^vector.c: vector.h$/;"	t	language:Make
+vector_delete	lab02/vector.c	/^void vector_delete(vector_t *v) {$/;"	f	language:C	typeref:typename:void	signature:(vector_t * v)
+vector_get	lab02/vector.c	/^int vector_get(vector_t *v, size_t loc) {$/;"	f	language:C	typeref:typename:int	signature:(vector_t * v,size_t loc)
+vector_new	lab02/vector.c	/^vector_t *vector_new() {$/;"	f	language:C	typeref:typename:vector_t *	signature:()
+vector_set	lab02/vector.c	/^void vector_set(vector_t *v, size_t loc, int value) {$/;"	f	language:C	typeref:typename:void	signature:(vector_t * v,size_t loc,int value)
+vector_t	lab02/vector.c	/^struct vector_t {$/;"	s	language:C	file:
+vector_t	lab02/vector.h	/^typedef struct vector_t vector_t;$/;"	t	language:C++	typeref:struct:vector_t
+verify	lab10/omp_apps.c	/^int verify(double* x, double* y, void(*funct)(double *x, double *y, double *z)) {$/;"	f	language:C	typeref:typename:int	signature:(double * x,double * y,void (* funct)(double * x,double * y,double * z))
+wordCheck	lab07/cache.s	/^wordCheck:$/;"	l	language:Asm
+wordCount	lab11/wordCount.py	/^def wordCount(file_name, output="spark-wc-out-wordCount"):$/;"	f	language:Python	signature:(file_name, output="spark-wc-out-wordCount")
+wordLoop	lab07/cache.s	/^wordLoop:$/;"	l	language:Asm
+wordZero	lab07/cache.s	/^wordZero:$/;"	l	language:Asm
+zero	lab04/discrete_fn.s	/^zero:   .asciiz "f(0) should be -38, and it is: "$/;"	l	language:Asm
