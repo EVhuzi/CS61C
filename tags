@@ -371,3 +371,9 @@ wordCount	lab11/wordCount.py	/^def wordCount(file_name, output="spark-wc-out-wor
 wordLoop	lab07/cache.s	/^wordLoop:$/;"	l	language:Asm
 wordZero	lab07/cache.s	/^wordZero:$/;"	l	language:Asm
 zero	lab04/discrete_fn.s	/^zero:   .asciiz "f(0) should be -38, and it is: "$/;"	l	language:Asm
+基础操作	git操作.md	/^## 基础操作$/;"	s	language:Markdown
+学习Git	git操作.md	/^# 学习Git$/;"	c	language:Markdown
+杂项	git操作.md	/^## 杂项$/;"	s	language:Markdown
+移动提交记录	git操作.md	/^## 移动提交记录$/;"	s	language:Markdown
+远程	git操作.md	/^## 远程$/;"	s	language:Markdown
+高级操作	git操作.md	/^## 高级操作$/;"	s	language:Markdown
