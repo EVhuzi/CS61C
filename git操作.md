@@ -56,4 +56,6 @@ tag 表示的是离 ref 最近的标签， numCommits 是表示这个 ref 与 ta
 4. git pull: fetch和merge两个命令的合并
 5. git push
 6. git checkout -b totallyNotMain o/main 创建一个名为 totallyNotMain 的分支，它跟踪远程分支 o/main
-7. 
+7. git push origin main
+把这个命令翻译过来就是：
+切到本地仓库中的“main”分支，获取所有的提交，再到远程仓库“origin”中找到“main”分支，将远程仓库中没有的提交记录都添加上去，搞定之后告诉我。
